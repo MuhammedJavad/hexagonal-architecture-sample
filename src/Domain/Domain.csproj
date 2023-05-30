@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aggregates\X1\Entities\" />
+    <Folder Include="Aggregates\X1\Repositories\" />
+    <Folder Include="Aggregates\X2\Entities\" />
+    <Folder Include="Aggregates\X2\Repositories\" />
+    <Folder Include="Common\Extensions\" />
+    <Folder Include="Common\Constances\" />
+    <Folder Include="Common\Types\" />
+  </ItemGroup>
+
+</Project>
